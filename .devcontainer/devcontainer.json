@@ -6,5 +6,11 @@
   "onCreateCommand": ".devcontainer/on-create-command.sh",
   "remoteEnv": {
     "HOMEBREW_GITHUB_API_TOKEN": "${localEnv:GITHUB_TOKEN}"
-  }
+  },
+  "features": {
+    "ghcr.io/wandb/catnip/feature:1": {}
+  },
+  "forwardPorts": [
+    6369
+  ]
 }
